@@ -11,7 +11,7 @@ if ((process.env.BUILD !== 'production')) {
     serverPath = "https://blair-core.ngrok.io/build/";
 } else {
     componentPath = "https://hartswf0.github.io/vue-apps/";
-    serverPath = "https://hartswf0.github.io/core-components/";
+    serverPath = "https://hartswf0.github.io/core-components/";//url to paste at index.js
 }
 
 export default ['index', 'main-room'].map((name, index) => ({
